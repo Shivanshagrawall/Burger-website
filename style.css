@@ -1,0 +1,490 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Header Section */
+.header-part {
+    width: 100%;
+    height: 650px;
+    /* border: 2px solid red; */
+    background-color: #ffc135;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 150px;
+}
+
+.logo {
+    width: 35%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 50px;
+    /* border: 2px solid red; */
+}
+
+.header nav {
+    width: 65%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    /* border: 2px solid red; */
+}
+
+.header nav ul li {
+    /* border: 2px solid red; */
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header nav ul li:hover {
+    cursor: pointer;
+    color: #df1c1c;
+}
+
+.details {
+    width: 100%;
+    height: 550px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.burger-deatils {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-details1 {
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-details1-container {
+    width: 500px;
+    height: 130px;
+    /* border: 2px solid red; */
+    border: 2px dashed #42200b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    color: #42200b;
+    font-weight: 500;
+}
+
+.burger-details2 {
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #42200b;
+
+}
+
+.burger-image {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.burger-image img {
+    width: 620px;
+    height: 450px;
+}
+
+/* Try it now section */
+.try-it-out-today {
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.try-it-out-today-container {
+    width: 1000px;
+    height: 450px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-burger {
+    width: 48%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-image: url(burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    font-size: 24px;
+    line-height: 1.5;
+    word-spacing: 4px;
+}
+
+.more-fun-more-taste-fresh-and-chilli {
+    width: 47%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.more-fun-more-taste {
+    width: 100%;
+    height: 47%;
+    /* border: 2px solid red; */
+    background-image: url(burger2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    font-size: 24px;
+    line-height: 1.5;
+    word-spacing: 4px;
+}
+
+.fresh-and-chilli {
+    width: 100%;
+    height: 48%;
+    /* border: 2px solid red; */
+    background-image: url(burger3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    font-size: 24px;
+    line-height: 1.5;
+    word-spacing: 4px;
+}
+
+/* Order Now Section */
+.order-now {
+    height: 700px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.order-now-details {
+    height: 200px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.tasty {
+    height: 45px;
+    width: 250px;
+    /* border: 2px solid red; */
+    background-color: #ffc135;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.order-now-details h2 {
+    font-size: 36px;
+    color: #42200b;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.order-now-details p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.order {
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.orderNow {
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-image {
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-image img {
+    height: 220px;
+    width: 220px;
+}
+
+.order-title {
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 28px;
+    color: #212529;
+}
+
+.order-description {
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-box {
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-now-button {
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.order-now-button:hover {
+    background-color: #df1c1c;
+}
+
+/* Upcoming Event Section */
+.upcoming-event {
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upcoming-event-container {
+    height: 350px;
+    width: 75%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upcoming-event-text {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.text1 {
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid red; */
+    font-size: 24px;
+    padding: 5px 15px 5px 15px;
+}
+
+.text2 {
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid red; */
+    font-size: 26px;
+    padding: 5px 15px 5px 15px;
+    color: #42200b;
+}
+
+.text3 {
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid red; */
+    line-height: 1.5;
+    font-size: 18px;
+    padding: 5px;
+    color: #4b4a4a;
+}
+
+.upcoming-event-image {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+    background-image: url(event.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Book Your Table Section */
+.reservation {
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation-image {
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+#reservation-image1 {
+    background-image: url(reservation-bg-1.png);
+    background-position: center;
+}
+
+#reservation-image2 {
+    background-image: url(reservation-bg-2.png);
+    background-position: center;
+}
+
+.reservation-text {
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.reservation-text1 {
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.reservation-text2 {
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #42200b;
+}
+
+.input-box {
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input-box input {
+    width: 270px;
+    height: 40px;
+    margin: 15px;
+    padding: 5px 15px 5px 15px;
+}
+
+#button {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #df1c1c;
+}
+
+/* Footer Section */
+.footer {
+    width: 100%;
+    height: 55px;
+    background-color: #ffc135;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    font-size: 20px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
